@@ -1,0 +1,20 @@
+{
+	"pluginName": "oss decrypt",
+	"description": "解密 oss-browser 的账号和密码，用法：oss=加密字符串",
+	"preload": "preload.js",
+	"logo": "logo.png",
+	"features": [
+		{
+		  "code": "oss",
+		  "explain": "解密 oss-browser 的账号和密码，用法：oss=加密字符串",
+		  "cmds": [
+		  	"oss",
+		  	{
+		  		"type":"regex",
+		  		"label":"oss",
+		  		"match":"/^oss=/"
+		  	}
+			]
+		}
+	]
+}
